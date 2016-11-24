@@ -11,14 +11,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>用户管理</title>
-    <link rel="stylesheet" type="text/css" href="components/BootStrap/css/bootstrap-combined.min.css">
-    <link rel="stylesheet" type="text/css" href="components/BootStrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="components/BootStrap/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" type="text/css" href="components/BootStrap/css/bootstrap-table.min.css"/>
-    <script type="text/javascript" src="components/JQuery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="components/BootStrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="components/BootStrap/js/bootstrap-table.js"></script>
-    <script type="text/javascript" src="components/BootStrap/js/bootstrap-table-export.js"></script>
+    <link rel="stylesheet" type="text/css" href="../../components/BootStrap/css/bootstrap-combined.min.css">
+    <link rel="stylesheet" type="text/css" href="../../components/BootStrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../components/BootStrap/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="../../components/BootStrap/css/bootstrap-table.min.css"/>
+    <script type="text/javascript" src="../../components/JQuery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../../components/BootStrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../../components/BootStrap/js/bootstrap-table.js"></script>
+    <script type="text/javascript" src="../../components/BootStrap/js/bootstrap-table-export.js"></script>
+    <script src="../../components/BootStrap/js/html5shiv.js"></script>
+    <script src="../../components/BootStrap/js/respond.min.js"></script>
     <script type="text/javascript">
         $(function () {
             //
@@ -105,22 +107,20 @@
     </script>
 </head>
 <body>
-<div class="container-fluid">
-    <div class="row-fluid">
-        <div class="span12">
-            <div class="row-fluid">
-                <div class="span12">
-                    <div class="page-header">
-                        <h3>
-                            用户管理
-                        </h3>
-                    </div>
-                </div>
-            </div>
+<jsp:include page="/admin/head"/>
+<br/>
+<br/>
+<div class="container">
+    <div class="row">
+        <article class="col-xs-12 maincontent">
+            <header class="page-header">
+                <h1 class="page-title">用户管理</h1>
+            </header>
             <div id="toolbar"></div>
             <table id="userListTab" class="table table-hover"></table>
-        </div>
+        </article>
     </div>
 </div>
+<jsp:include page="/admin/foot"/>
 </body>
 </html>
