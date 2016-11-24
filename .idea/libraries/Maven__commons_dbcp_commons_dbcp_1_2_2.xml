@@ -3,6 +3,9 @@
     <CLASSES>
       <root url="jar://D:/maven/repository/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar!/" />
     </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven/repository/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://D:/maven/repository/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2-sources.jar!/" />
     </SOURCES>

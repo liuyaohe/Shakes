@@ -3,6 +3,9 @@
     <CLASSES>
       <root url="jar://D:/maven/repository/redis/clients/jedis/2.8.0/jedis-2.8.0.jar!/" />
     </CLASSES>
+    <JAVADOC>
+      <root url="jar://D:/maven/repository/redis/clients/jedis/2.8.0/jedis-2.8.0-javadoc.jar!/" />
+    </JAVADOC>
     <SOURCES>
       <root url="jar://D:/maven/repository/redis/clients/jedis/2.8.0/jedis-2.8.0-sources.jar!/" />
     </SOURCES>

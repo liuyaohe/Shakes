@@ -20,7 +20,7 @@
         select * from user_info where id=#{userInfo.id};
     </select>
 
-    <select id="find" parameterType="com.sowhat.shakes.base.mode.UserInfo" resultType="java.util.List">
+    <select id="find" parameterType="com.sowhat.shakes.base.mode.UserInfo" resultType="com.sowhat.shakes.base.mode.UserInfo">
         SELECT * from user_info ;
     </select>
 
