@@ -7,77 +7,93 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c89b3fc-2174-4004-b20b-8fcbedfc4fdc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_parent_2_0_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_0_3_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signin.html" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/WEB-INF/jsp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/jsp/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/lib/commons-pool2-2.3.jar" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/com/sowhat/shakes/admin/login/controller/LoginController.class" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/com/sowhat/shakes/admin/login/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/com/sowhat/shakes/admin/login/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/com/sowhat/shakes/admin/login/controller/LoginController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/sowhat/shakes/admin/login/controller/LoginController.class" afterPath="$PROJECT_DIR$/target/classes/com/sowhat/shakes/admin/login/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__c3p0_c3p0_0_9_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_20.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_0_20.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_7_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_7_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_7_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_16.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_29.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_8_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_19.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_19.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_19.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_1_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_1_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/ShakesWebMaven_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/ShakesWebMaven_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ShakesWebMaven.iml" afterPath="$PROJECT_DIR$/ShakesWebMaven.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/WEB-INF/jsp/admin/userList.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/WEB-INF/jsp/admin/userList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/jsp/admin/userList.jsp" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/jsp/admin/userList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/css/bootstrap-table.min.css" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/css/bootstrap-table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/js/bootstrap-table-export.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/js/bootstrap-table-export.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/js/bootstrap-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/BootStrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/JQuery/1.11.3/jquery.min.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/JQuery/1.11.3/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/JQueryUI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/JQueryUI/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/JQueryUI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/components/JQueryUI/jquery-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/spring/spring-context.xml" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/classes/spring/spring-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/css/bootstrap-table.min.css" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/css/bootstrap-table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/js/bootstrap-table-export.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/js/bootstrap-table-export.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/js/bootstrap-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/BootStrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/JQuery/1.11.3/jquery.min.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/JQuery/1.11.3/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/JQueryUI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/JQueryUI/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/JQueryUI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/out/artifacts/ShakesWebMaven_war_exploded/components/JQueryUI/jquery-ui.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/login/controller/LoginController.java" afterPath="$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/login/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/userList.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/userList.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/contact.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sidebar-left.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sidebar-left.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sidebar-right.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/sidebar-right.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signup.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signup.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resource/spring/spring-context.xml" afterPath="$PROJECT_DIR$/src/main/resource/spring/spring-context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/jsp/admin/userList.jsp" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/jsp/admin/userList.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mapper/userMapper.xml" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/mybatis/mapper/userMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/jsp/admin/userList.jsp" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/jsp/admin/userList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/css/bootstrap-table.min.css" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/css/bootstrap-table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/bootstrap-table-export.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/bootstrap-table-export.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/bootstrap-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/html5shiv.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/respond.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/BootStrap/js/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/JQuery/1.11.3/jquery.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/JQuery/1.11.3/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/JQueryUI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/JQueryUI/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/JQueryUI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/components/JQueryUI/jquery-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/js/headroom.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/js/headroom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/js/jQuery.headroom.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/classes/js/jQuery.headroom.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/jsp/admin/userList.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/jsp/admin/userList.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/css/bootstrap-table.min.css" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/css/bootstrap-table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/bootstrap-table-export.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/bootstrap-table-export.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/bootstrap-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/html5shiv.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/respond.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/BootStrap/js/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/JQuery/1.11.3/jquery.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/JQuery/1.11.3/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/JQueryUI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/JQueryUI/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/JQueryUI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/components/JQueryUI/jquery-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/js/headroom.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/js/headroom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/js/jQuery.headroom.min.js" afterPath="$PROJECT_DIR$/target/ShakesWebMaven-1.0-SNAPSHOT/js/jQuery.headroom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/jsp/admin/login.jsp" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/jsp/admin/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/css/bootstrap-table.min.css" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/css/bootstrap-table.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/css/font-awesome.min.css" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/css/font-awesome.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/fonts/fontawesome-webfont.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/js/bootstrap-table-export.js" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/js/bootstrap-table-export.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/js/bootstrap-table.js" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/js/bootstrap-table.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/js/html5shiv.js" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/js/html5shiv.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/BootStrap/js/respond.min.js" afterPath="$PROJECT_DIR$/target/classes/components/BootStrap/js/respond.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/JQuery/1.11.3/jquery.min.js" afterPath="$PROJECT_DIR$/target/classes/components/JQuery/1.11.3/jquery.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/JQueryUI/jquery-ui.min.css" afterPath="$PROJECT_DIR$/target/classes/components/JQueryUI/jquery-ui.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/components/JQueryUI/jquery-ui.min.js" afterPath="$PROJECT_DIR$/target/classes/components/JQueryUI/jquery-ui.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/js/headroom.min.js" afterPath="$PROJECT_DIR$/target/classes/js/headroom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/js/jQuery.headroom.min.js" afterPath="$PROJECT_DIR$/target/classes/js/jQuery.headroom.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-context.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-context.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="ShakesWebMaven.iws" />
@@ -96,57 +112,24 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="ShakesWebMaven" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="userList.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/userList.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2261">
-              <caret line="119" column="70" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/user/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="head.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/components/head.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="665">
-              <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="197">
-              <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+            <state relative-caret-position="114">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -155,18 +138,18 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1045">
-              <caret line="55" column="95" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
+            <state relative-caret-position="608">
+              <caret line="32" column="33" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foot.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/components/foot.jsp">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+            <state relative-caret-position="114">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -175,18 +158,18 @@
       <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/login/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
+            <state relative-caret-position="494">
+              <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/css/main.css">
+      <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-redis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="684">
+              <caret line="36" column="54" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -200,6 +183,7 @@
         <option value="spring-beans.schema" />
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -215,13 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/base/dao/AbstractBaseRedisDao.java" />
-        <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/redis/client/RedisUtil.java" />
-        <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/redis/common/Constant.java" />
-        <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/admin/user/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/admin/user/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/admin/user/dao/UserDao.java" />
-        <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/admin/user/dao/impl/UserDaoImpl.java" />
         <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/admin/user/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/admin/role/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/src.main.java/com.sowhat.shakes/admin/role/dao/impl/RoleDaoImlp.java" />
@@ -260,11 +237,18 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/components/foot.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/signin.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/signin.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/login/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/userList.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/components/head.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring/spring-security.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sowhat/shakes/common/security/MvcWebApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/spring/spring-context.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/login/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sowhat/shakes/common/security/SecurityWebApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/sowhat/shakes/common/security/SecurityConfiguration.java" />
+        <option value="D:/maven/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class" />
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
@@ -330,7 +314,113 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ShakesWebMaven">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ShakesWebMaven">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="webapp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WEB-INF">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ShakesWebMaven">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="webapp">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="WEB-INF">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="jsp/admin">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ShakesWebMaven">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="resource">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="spring">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="ShakesWebMaven">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="src/main">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="java">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="com/sowhat/shakes/common/security">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -399,15 +489,33 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
+              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="shakes" />
+              <option name="myItemId" value="spring" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShakesWebMaven" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ShakesWebMaven" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="redis" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resource" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -439,18 +547,17 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.22068965" />
+    <property name="project.structure.side.proportion" value="0.36551723" />
     <property name="Downloaded.Files.Path.Enabled" value="true" />
     <property name="Downloaded.Files.Path" value="D:\JetBrains\IdeaProjects\ShakesWebMaven\webapp\WEB-INF\lib" />
     <property name="Repository.Attach.JavaDocs" value="false" />
@@ -872,8 +979,10 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
-        <option name="Maven.BeforeRunTask" enabled="true" file="$PROJECT_DIR$/pom.xml" goal="package" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ShakesWebMaven:war exploded" />
+        </option>
+        <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list size="1">
@@ -932,11 +1041,19 @@
       <workItem from="1479906446458" duration="1319000" />
       <workItem from="1479966114625" duration="1800000" />
       <workItem from="1479993863054" duration="79000" />
+      <workItem from="1479997257472" duration="512000" />
+      <workItem from="1479998445636" duration="2133000" />
+      <workItem from="1480062098045" duration="4144000" />
+      <workItem from="1480330157805" duration="5141000" />
+      <workItem from="1480384930243" duration="103000" />
+      <workItem from="1480385134919" duration="5550000" />
+      <workItem from="1480391685019" duration="1633000" />
+      <workItem from="1480399959425" duration="1491000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="91498000" />
+    <option name="totallyTimeSpent" value="112205000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -948,37 +1065,37 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405892" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.2065053" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.71028745" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29459903" sideWeight="0.28971255" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17246597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5662848" sideWeight="0.5030257" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2913257" sideWeight="0.28744328" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32733223" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172465" sideWeight="0.6928105" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27760968" sideWeight="0.6519608" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26172465" sideWeight="0.2672065" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980332" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1301059" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26172465" sideWeight="0.30718955" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26172465" sideWeight="0.3480392" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5662848" sideWeight="0.4969743" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17246597" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33060557" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32569557" sideWeight="0.49394855" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -998,7 +1115,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="25" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1007,64 +1124,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src.main.java/com.sowhat.shakes/base/mode/RoleInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src.main.java/com.sowhat.shakes/admin/role/service/RoleService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/base/mode/RoleInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/role/service/RoleService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="14" column="41" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/role/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="47" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/role/controller/RoleController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/role/dao/impl/RoleDaoImlp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-741">
-          <caret line="21" column="53" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/properties/datasource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/properties/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resource/properties/redis.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1081,32 +1140,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="36" column="54" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src.main.webapp/WEB-INF/web.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/components/BootStrap/css/bootstrap-combined.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1897">
           <caret line="874" column="0" selection-start-line="874" selection-start-column="0" selection-end-line="874" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/user/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="16" column="30" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="30" />
         </state>
       </provider>
     </entry>
@@ -1258,7 +1296,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="72" column="5" selection-start-line="72" selection-start-column="5" selection-end-line="72" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1266,7 +1303,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1274,59 +1310,119 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2261">
           <caret line="119" column="70" selection-start-line="119" selection-start-column="70" selection-end-line="119" selection-end-column="70" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/login/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp" />
+    <entry file="file://$USER_HOME$/Desktop/ControlService.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/components/head.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="35" column="15" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="55" column="95" selection-start-line="55" selection-start-column="95" selection-end-line="55" selection-end-column="95" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/components/foot.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        <state relative-caret-position="19">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/springframework/security/spring-security-web/4.0.3.RELEASE/spring-security-web-4.0.3.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/JdbcTokenRepositoryImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/springframework/security/spring-security-web/4.0.3.RELEASE/spring-security-web-4.0.3.RELEASE.jar!/org/springframework/security/web/authentication/rememberme/PersistentTokenRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/springframework/security/spring-security-core/4.0.3.RELEASE/spring-security-core-4.0.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/common/security/MvcWebApplicationInitializer.java" />
+    <entry file="jar://D:/maven/repository/org/springframework/security/spring-security-config/4.0.3.RELEASE/spring-security-config-4.0.3.RELEASE.jar!/org/springframework/security/config/annotation/authentication/builders/AuthenticationManagerBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="75" column="40" selection-start-line="75" selection-start-column="40" selection-end-line="75" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-security.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/components/head.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/user/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="665">
-          <caret line="35" column="56" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
+        <state relative-caret-position="152">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/common/security/SecurityConfiguration.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/common/security/SecurityWebApplicationInitializer.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/admin/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="15" />
+        <state relative-caret-position="608">
+          <caret line="32" column="33" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/maven/repository/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="216" column="0" selection-start-line="216" selection-start-column="0" selection-end-line="216" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/sowhat/shakes/admin/login/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="30" column="34" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/spring/spring-redis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="36" column="54" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+        <state relative-caret-position="114">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Desktop/ControlService.java" />
   </component>
   <component name="masterDetails">
     <states>
@@ -1335,16 +1431,16 @@
           <artifact-editor>
             <show-content>
               <type id="artifact" />
+              <type id="javaee-facet-resources" />
               <type id="jpa-descriptors" />
               <type id="library" />
-              <type id="javaee-facet-resources" />
             </show-content>
           </artifact-editor>
           <last-edited>ShakesWebMaven:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.22068965" />
+                <option value="0.36551723" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1357,7 +1453,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.22068965" />
+                <option value="0.36551723" />
               </list>
             </option>
           </splitter-proportions>
@@ -1368,7 +1464,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.5816092" />
+                <option value="0.36551723" />
               </list>
             </option>
           </splitter-proportions>
@@ -1380,7 +1476,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.22068965" />
+                <option value="0.36551723" />
               </list>
             </option>
           </splitter-proportions>
@@ -1388,11 +1484,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>ShakesWebMaven</last-edited>
+          <last-edited>Web|ShakesWebMaven</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.22068965" />
+                <option value="0.36551723" />
               </list>
             </option>
           </splitter-proportions>
@@ -1416,7 +1512,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.22068965" />
+                <option value="0.36551723" />
               </list>
             </option>
           </splitter-proportions>

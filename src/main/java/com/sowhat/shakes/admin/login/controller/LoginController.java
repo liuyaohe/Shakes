@@ -10,14 +10,28 @@ import org.springframework.web.servlet.ModelAndView;
  * Created by liu on 2016/8/13.
  */
 @Controller
-@RequestMapping("/admin")
+@RequestMapping("/base")
 public class LoginController {
     Log log = LogFactory.getLog(LoginController.class);
 
+    /**
+     * 登录页面
+     * @return
+     */
     @RequestMapping("/login")
     public String login(){
         log.info("====正在登陆===");
         return "/admin/login";
+    }
+
+    /**
+     * 登录
+     * @return
+     */
+    @RequestMapping("/loginCheck")
+    public String loginCheck(){
+        System.out.println("登录成功");
+        return "成功";
     }
 
     @RequestMapping("/logout")
