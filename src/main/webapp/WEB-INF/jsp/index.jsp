@@ -12,15 +12,15 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	<meta name="description" content="">
 	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
 
-	<link rel="shortcut icon" href="../../img/gt_favicon.png">
+	<link rel="shortcut icon" href="<%=basePath%>img/gt_favicon.png">
 
 	<link rel="stylesheet" media="screen" href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,700">
-	<link rel="stylesheet" href="../../components/BootStrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="../../components/BootStrap/css/font-awesome.min.css">
+	<link rel="stylesheet" href="<%=basePath%>components/BootStrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="<%=basePath%>components/BootStrap/css/font-awesome.min.css">
 
 	<!-- Custom styles for our template -->
-	<link rel="stylesheet" href="../../components/BootStrap/css/bootstrap-theme.min.css" media="screen" >
-	<link rel="stylesheet" href="../../css/main.css">
+	<link rel="stylesheet" href="<%=basePath%>components/BootStrap/css/bootstrap-theme.min.css" media="screen" >
+	<link rel="stylesheet" href="<%=basePath%>css/main.css">
 
 	<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
 	<!--[if lt IE 9]>
@@ -30,7 +30,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 </head>
 
 <body class="home">
-	<jsp:include page="/admin/head"/>
+	<jsp:include page="/head"/>
 	<!-- Header -->
 	<header id="head">
 		<div class="container">
@@ -148,17 +148,17 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		</div>
 	</section>
 	<!-- /social links -->
-	<jsp:include page="/admin/foot"/>
+	<jsp:include page="/foot"/>
 		
 
 
 
 
 	<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
-	<script src="../../components/JQuery/1.11.3/jquery.min.js"></script>
-	<script src="../../components/BootStrap/js/bootstrap.min.js"></script>
-	<script src="../../js/headroom.min.js"></script>
-	<script src="../../js/jQuery.headroom.min.js"></script>
-	<script src="../../js/template.js"></script>
+	<script src="<%=basePath%>components/JQuery/1.11.3/jquery.min.js"></script>
+	<script src="<%=basePath%>components/BootStrap/js/bootstrap.min.js"></script>
+	<script src="<%=basePath%>js/headroom.min.js"></script>
+	<script src="<%=basePath%>js/jQuery.headroom.min.js"></script>
+	<script src="<%=basePath%>js/template.js"></script>
 </body>
 </html>

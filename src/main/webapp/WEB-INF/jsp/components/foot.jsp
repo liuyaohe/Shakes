@@ -1,11 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" pageEncoding="UTF-8"%>
-
-<%--<link rel="stylesheet" href="../../components/BootStrap/css/bootstrap.min.css">--%>
-<%--<link rel="stylesheet" href="../../components/BootStrap/css/font-awesome.min.css">--%>
-
-<!-- Custom styles for our template -->
-<%--<link rel="stylesheet" href="../../components/BootStrap/css/bootstrap-theme.min.css" media="screen" >--%>
-<link rel="stylesheet" href="../../css/main.css">
+<%
+String path = request.getContextPath();
+String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
+%>
+<link rel="stylesheet" href="<%=basePath %>css/main.css">
 <footer id="footer" class="top-space">
 
     <div class="footer1">
@@ -54,7 +52,7 @@
                 <div class="col-md-6 widget">
                     <div class="widget-body">
                         <p class="simplenav">
-                            <a href="#">主页</a> |
+                            <a href="<%=basePath %>index">主页</a> |
                             <a href="about.html">关于</a> |
                             <a href="contact.html">联系我们</a> |
                             <b><a href="signup.html">注册</a></b>

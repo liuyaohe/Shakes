@@ -7,19 +7,30 @@ import java.io.Serializable;
  * Created by liu on 2016/8/7.
  */
 public class UserInfo implements Serializable {
-    private String id;
-    private String name;
-    private String password;
-    private String mobile;
+    private String seq;
+    private String userId;//登录id
+    private String name;// 用户名
+    private String password;//密码
+    private String mobile;//手机号
+    
+    private RoleInfo roleInfo;//角色
 
-    public String getId() {
-        return id;
-    }
+    public String getSeq() {
+		return seq;
+	}
+    
+    public void setSeq(String seq) {
+		this.seq = seq;
+	}
 
-    public void setId(String id) {
-        this.id = id;
-    }
-
+    public String getUserId() {
+		return userId;
+	}
+    
+    public void setUserId(String userId) {
+		this.userId = userId;
+	}
+    
     public String getName() {
         return name;
     }
@@ -43,4 +54,11 @@ public class UserInfo implements Serializable {
     public void setMobile(String mobile) {
         this.mobile = mobile;
     }
+    
+    public RoleInfo getRoleInfo() {
+		return roleInfo;
+	}
+    public void setRoleInfo(RoleInfo roleInfo) {
+		this.roleInfo = roleInfo;
+	}
 }

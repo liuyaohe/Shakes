@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
  * Created by liu on 2016/8/13.
  */
 @Controller
-@RequestMapping("/base")
+@RequestMapping("/")
 public class LoginController {
     Log log = LogFactory.getLog(LoginController.class);
 
@@ -18,7 +18,7 @@ public class LoginController {
      * 登录页面
      * @return
      */
-    @RequestMapping("/login")
+    @RequestMapping("login")
     public String login(){
         log.info("====正在登陆===");
         return "/admin/login";
@@ -28,28 +28,28 @@ public class LoginController {
      * 登录
      * @return
      */
-    @RequestMapping("/loginCheck")
+    @RequestMapping("loginCheck")
     public String loginCheck(){
         System.out.println("登录成功");
         return "成功";
     }
 
-    @RequestMapping("/logout")
+    @RequestMapping("logout")
     public String logout(){
         log.info("注销登录");
         return null;
     }
 
-    @RequestMapping(value = "/index")
+    @RequestMapping(value = "index")
     public ModelAndView index(){
         log.info("====测试页面===");
         return new ModelAndView("/index");
     }
-    @RequestMapping(value = "/head")
+    @RequestMapping(value = "head")
     public String head(){
         return "/components/head";
     }
-    @RequestMapping(value = "/foot")
+    @RequestMapping(value = "foot")
     public String foot(){
         return "/components/foot";
     }

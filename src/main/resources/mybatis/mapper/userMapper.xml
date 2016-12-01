@@ -5,19 +5,23 @@
 <mapper namespace="com.sowhat.shakes.admin.user.mapper.UserMapper">
 
     <insert id="insertUser" parameterType="com.sowhat.shakes.base.mode.UserInfo" useGeneratedKeys="true" keyColumn="id">
-        INSERT INTO user_info(id,name,password,mobile) VALUES (#{id},#{name},#{password},#{mobile});
+        INSERT INTO user_info(seq,user_id,name,password,mobile) VALUES (#{seq},#{userId},#{name},#{password},#{mobile});
     </insert>
 
     <update id="updateUser" parameterType="com.sowhat.shakes.base.mode.UserInfo">
-        UPDATE user_info set name=#{name},password=#{password},mobile=#{mobile} where id=#{id};
+        UPDATE user_info set user_id=#{userId} name=#{name},password=#{password},mobile=#{mobile} where seq=#{seq};
     </update>
 
     <delete id="deleteUser" parameterType="String">
-        delete from user_info where id=#{id};
+        delete from user_info where seq=#{seq};
     </delete>
 
     <select id="findById" parameterType="String" resultType="com.sowhat.shakes.base.mode.UserInfo">
-        select * from user_info where id=#{userInfo.id};
+        select * from user_info where seq=#{seq};
+    </select>
+    
+    <select id="findByUserId" parameterType="String" resultType="com.sowhat.shakes.base.mode.UserInfo">
+   		select * from user_info where user_id = #{userId};
     </select>
 
     <select id="find" parameterType="com.sowhat.shakes.base.mode.UserInfo" resultType="com.sowhat.shakes.base.mode.UserInfo">

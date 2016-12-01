@@ -1,15 +1,15 @@
 package com.sowhat.shakes.admin.user.service.impl;
 
 
-import com.sowhat.shakes.admin.user.dao.UserDao;
-import com.sowhat.shakes.admin.user.service.UserService;
-import com.sowhat.shakes.base.mode.UserInfo;
+import java.util.List;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 
-
-import java.util.List;
+import com.sowhat.shakes.admin.user.dao.UserDao;
+import com.sowhat.shakes.admin.user.service.UserService;
+import com.sowhat.shakes.base.mode.UserInfo;
 
 /**
  * Created by liu on 2016/8/7.
@@ -24,10 +24,15 @@ public class UserServiceImpl implements UserService {
     public List<UserInfo> getUserList(UserInfo userInfo) {
         return userDao.getUserList(userInfo);
     }
+    
+    @Override
+    public UserInfo getUserByUserId(String userId) {
+    	return userDao.getUserByUserId(userId);
+    }
 
     public boolean saveOrUpdateUser(UserInfo userInfo) {
         UserInfo result = null;
-        if(StringUtils.isEmpty(userInfo.getId())){
+        if(StringUtils.isEmpty(userInfo.getSeq())){
            result = userDao.saveUserInfo(userInfo);
         }else {
            result = userDao.updateUserInfo(userInfo);

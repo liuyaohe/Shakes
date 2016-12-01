@@ -11,16 +11,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>用户管理</title>
-    <link rel="stylesheet" type="text/css" href="../../components/BootStrap/css/bootstrap-combined.min.css">
-    <link rel="stylesheet" type="text/css" href="../../components/BootStrap/css/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../../components/BootStrap/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" type="text/css" href="../../components/BootStrap/css/bootstrap-table.min.css"/>
-    <script type="text/javascript" src="../../components/JQuery/1.11.3/jquery.min.js"></script>
-    <script type="text/javascript" src="../../components/BootStrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../components/BootStrap/js/bootstrap-table.js"></script>
-    <script type="text/javascript" src="../../components/BootStrap/js/bootstrap-table-export.js"></script>
-    <script src="../../components/BootStrap/js/html5shiv.js"></script>
-    <script src="../../components/BootStrap/js/respond.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="<%=basePath%>components/BootStrap/css/bootstrap-combined.min.css">
+    <link rel="stylesheet" type="text/css" href="<%=basePath%>components/BootStrap/css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="<%=basePath%>components/BootStrap/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" type="text/css" href="<%=basePath%>components/BootStrap/css/bootstrap-table.min.css"/>
+    <script type="text/javascript" src="<%=basePath%>components/JQuery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="<%=basePath%>components/BootStrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="<%=basePath%>components/BootStrap/js/bootstrap-table.js"></script>
+    <script type="text/javascript" src="<%=basePath%>components/BootStrap/js/bootstrap-table-export.js"></script>
+    <script src="<%=basePath%>components/BootStrap/js/html5shiv.js"></script>
+    <script src="<%=basePath%>components/BootStrap/js/respond.min.js"></script>
     <script type="text/javascript">
         $(function () {
             //
@@ -107,7 +107,7 @@
     </script>
 </head>
 <body>
-<jsp:include page="/admin/head"/>
+<jsp:include page="/head"/>
 <br/>
 <br/>
 <div class="container">
@@ -121,6 +121,6 @@
         </article>
     </div>
 </div>
-<jsp:include page="/admin/foot"/>
+<jsp:include page="/foot"/>
 </body>
 </html>

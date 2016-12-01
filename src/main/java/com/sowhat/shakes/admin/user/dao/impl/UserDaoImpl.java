@@ -1,16 +1,16 @@
 package com.sowhat.shakes.admin.user.dao.impl;
 
 
-import com.sowhat.shakes.admin.user.dao.UserDao;
-import com.sowhat.shakes.admin.user.mapper.UserMapper;
-import com.sowhat.shakes.base.mode.UserInfo;
+import java.util.List;
+
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import java.util.ArrayList;
-import java.util.List;
+import com.sowhat.shakes.admin.user.dao.UserDao;
+import com.sowhat.shakes.admin.user.mapper.UserMapper;
+import com.sowhat.shakes.base.mode.UserInfo;
 
 /**
  * Created by liu on 2016/8/7.
@@ -30,8 +30,13 @@ public class UserDaoImpl implements UserDao {
         return users;
     }
 
-    public UserInfo getUser(String id) {
-        return userMapper.findById(id);
+    public UserInfo getUser(String seq) {
+        return userMapper.findBySeq(seq);
+    }
+    
+    @Override
+    public UserInfo getUserByUserId(String userId) {
+    	return userMapper.findByUserId(userId);
     }
 
     public UserInfo saveUserInfo(UserInfo userInfo) {
