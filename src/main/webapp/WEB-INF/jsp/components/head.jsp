@@ -27,8 +27,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
                 <li>
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown">管理 <b class="caret"></b></a>
                     <ul class="dropdown-menu">
-                        <li><a href="<%=basePath %>loadUserList">用户</a> </li>
-                        <li><a href="<%=basePath %>loadUserList">角色</a></li>
+                        <li><a href="<%=basePath %>admin/loadUserList">用户</a> </li>
+                        <li><a href="<%=basePath %>admin/loadUserList">角色</a></li>
                     </ul>
                 </li>
                 <li><a href="contact.html">联系我们</a></li>

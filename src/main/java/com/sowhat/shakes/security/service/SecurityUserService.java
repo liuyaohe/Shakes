@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -12,6 +13,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.sowhat.shakes.admin.user.service.UserService;
+import com.sowhat.shakes.base.mode.RoleInfo;
 import com.sowhat.shakes.base.mode.UserInfo;
 @Service("userDetailsService")
 public class SecurityUserService implements UserDetailsService {
@@ -30,8 +32,10 @@ public class SecurityUserService implements UserDetailsService {
 	
 	private List<GrantedAuthority> getGrantedAuthorities(UserInfo userInfo){
 		List<GrantedAuthority> authorities = new ArrayList<GrantedAuthority>();
-		for(U)
-		return null;
+		for(RoleInfo role : userInfo.getRoleInfos()){
+			authorities.add(new SimpleGrantedAuthority("ROLE_" + role.getRoleId()));
+		}
+		return authorities;
 	}
 
 }

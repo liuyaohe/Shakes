@@ -39,13 +39,11 @@ public class UserDaoImpl implements UserDao {
     	return userMapper.findByUserId(userId);
     }
 
-    public UserInfo saveUserInfo(UserInfo userInfo) {
+    public void saveUserInfo(UserInfo userInfo) {
         userMapper.insertUser(userInfo);
-        return userInfo;
     }
 
-    public UserInfo updateUserInfo(UserInfo userInfo) {
+    public void updateUserInfo(UserInfo userInfo) {
         userMapper.updateUser(userInfo);
-        return userInfo;
     }
 }

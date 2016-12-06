@@ -3,13 +3,29 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.sowhat.shakes.admin.user.mapper.UserMapper">
-
-    <insert id="insertUser" parameterType="com.sowhat.shakes.base.mode.UserInfo" useGeneratedKeys="true" keyColumn="id">
+	<resultMap type="com.sowhat.shakes.base.mode.UserInfo" id="baseUserInfo">
+		<id column="seq" property="seq" jdbcType="VARCHAR"/>
+		<result column="user_id" property="userId" jdbcType="VARCHAR"/>
+		<result column="name" property="name" jdbcType="VARCHAR"/>
+		<result column="password" property="password" jdbcType="VARCHAR" />
+		<result column="mobile" property="mobile" jdbcType="VARCHAR" />
+		<collection property="roleInfos" javaType="java.util.List" ofType="com.sowhat.shakes.base.mode.RoleInfo">
+			<id column="r_seq" property="seq" jdbcType="VARCHAR" />
+			<result column="r_role_id" property="roleId" jdbcType="VARCHAR" />
+			<result column="r_role_name" property="roleName" jdbcType="VARCHAR"/>
+		</collection>
+	</resultMap>	
+	
+    <insert id="insertUser" parameterType="com.sowhat.shakes.base.mode.UserInfo">
+    	<!-- 通过函数获取最新的seq -->
+    	<selectKey keyProperty="seq" resultType="java.lang.String" order="BEFORE">
+    		select getBaseSeq('USER_INFO');
+    	</selectKey>
         INSERT INTO user_info(seq,user_id,name,password,mobile) VALUES (#{seq},#{userId},#{name},#{password},#{mobile});
     </insert>
 
     <update id="updateUser" parameterType="com.sowhat.shakes.base.mode.UserInfo">
-        UPDATE user_info set user_id=#{userId} name=#{name},password=#{password},mobile=#{mobile} where seq=#{seq};
+        UPDATE user_info set user_id=#{userId}, name=#{name},password=#{password},mobile=#{mobile} where seq=#{seq};
     </update>
 
     <delete id="deleteUser" parameterType="String">
@@ -20,12 +36,44 @@
         select * from user_info where seq=#{seq};
     </select>
     
-    <select id="findByUserId" parameterType="String" resultType="com.sowhat.shakes.base.mode.UserInfo">
-   		select * from user_info where user_id = #{userId};
+    <select id="findByUserId" parameterType="String" resultMap="baseUserInfo">
+   		SELECT
+			u.seq as seq,
+			u.user_id as user_id,
+			u.`name` as name,
+			u.`password` as password,
+			u.mobile as mobile,
+			r.seq AS r_seq,
+			r.role_id AS r_role_id,
+			r.role_name AS r_role_name
+		FROM
+			user_info u
+		LEFT JOIN user_role ur ON ur.user_seq = u.seq
+		LEFT JOIN role_info r ON r.seq = ur.role_seq
+		WHERE
+			u.user_id = #{userId};
     </select>
 
-    <select id="find" parameterType="com.sowhat.shakes.base.mode.UserInfo" resultType="com.sowhat.shakes.base.mode.UserInfo">
-        SELECT * from user_info ;
+    <select id="find" parameterType="com.sowhat.shakes.base.mode.UserInfo" resultMap="baseUserInfo">
+        SELECT u.seq as seq,
+			u.user_id as 'user_id',
+			u.`name` as 'name',
+			u.`password` as 'password',
+			u.mobile as mobile
+		from user_info u where 1=1
+		<if test=" seq != null and seq != ''">
+			and u.seq = #{seq}
+		</if>
+		<if test=" userId != null and userId != '' ">
+			and u.user_id = #{userId}
+		</if>
+		<if test=" name != null and name != ''">
+			and u.name like '%${name}%'
+		</if>
+		<if test="mobile != null and mobile != ''">
+			and u.mobile like '%${mobile}%'
+		</if>
+		 ;
     </select>
 
 </mapper>

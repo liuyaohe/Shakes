@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
  * Created by liu on 2016/8/13.
  */
 @Controller
-@RequestMapping("/")
+
 public class LoginController {
     Log log = LogFactory.getLog(LoginController.class);
 
@@ -18,38 +18,60 @@ public class LoginController {
      * 登录页面
      * @return
      */
-    @RequestMapping("login")
+    @RequestMapping("/login")
     public String login(){
-        log.info("====正在登陆===");
+        log.info("====跳转到登录页面===");
         return "/admin/login";
     }
 
     /**
-     * 登录
+     * 登录认证
      * @return
      */
-    @RequestMapping("loginCheck")
+    @RequestMapping("/loginCheck")
     public String loginCheck(){
-        System.out.println("登录成功");
+    	
+        log.info("===登录成功===");
         return "成功";
     }
 
-    @RequestMapping("logout")
+    /**
+     * 退出系统
+     * @return
+     * @author liuyp
+     */
+    @RequestMapping("/logout")
     public String logout(){
         log.info("注销登录");
         return null;
     }
 
-    @RequestMapping(value = "index")
+    /**
+     * 主页地址
+     * @return
+     * @author liuyp
+     */
+    @RequestMapping(value = "/index")
     public ModelAndView index(){
         log.info("====测试页面===");
         return new ModelAndView("/index");
     }
-    @RequestMapping(value = "head")
+    /**
+     * 页面头部
+     * @return
+     * @author liuyp
+     */
+    @RequestMapping(value = "/head")
     public String head(){
         return "/components/head";
     }
-    @RequestMapping(value = "foot")
+    
+    /**
+     * 页面底部
+     * @return
+     * @author liuyp
+     */
+    @RequestMapping(value = "/foot")
     public String foot(){
         return "/components/foot";
     }

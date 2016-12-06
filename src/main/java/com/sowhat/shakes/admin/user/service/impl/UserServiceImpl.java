@@ -31,13 +31,12 @@ public class UserServiceImpl implements UserService {
     }
 
     public boolean saveOrUpdateUser(UserInfo userInfo) {
-        UserInfo result = null;
         if(StringUtils.isEmpty(userInfo.getSeq())){
-           result = userDao.saveUserInfo(userInfo);
+           userDao.saveUserInfo(userInfo);
         }else {
-           result = userDao.updateUserInfo(userInfo);
+           userDao.updateUserInfo(userInfo);
         }
-        return result != null;
+        return true;
     }
 
     /*********getter and setter***********/

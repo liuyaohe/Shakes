@@ -1,6 +1,7 @@
 package com.sowhat.shakes.base.mode;
 
 import java.io.Serializable;
+import java.util.List;
 
 /**
  * 用户类
@@ -13,7 +14,7 @@ public class UserInfo implements Serializable {
     private String password;//密码
     private String mobile;//手机号
     
-    private RoleInfo roleInfo;//角色
+    private List<RoleInfo> roleInfos;//角色
 
     public String getSeq() {
 		return seq;
@@ -55,10 +56,17 @@ public class UserInfo implements Serializable {
         this.mobile = mobile;
     }
     
-    public RoleInfo getRoleInfo() {
-		return roleInfo;
+    public List<RoleInfo> getRoleInfos() {
+		return roleInfos;
 	}
-    public void setRoleInfo(RoleInfo roleInfo) {
-		this.roleInfo = roleInfo;
+    public void setRoleInfos(List<RoleInfo> roleInfos) {
+		this.roleInfos = roleInfos;
+	}
+
+	@Override
+	public String toString() {
+		return "UserInfo [seq=" + seq + ", userId=" + userId + ", name=" + name
+				+ ", password=" + password + ", mobile=" + mobile
+				+ ", roleInfos=" + roleInfos + "]";
 	}
 }

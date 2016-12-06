@@ -35,12 +35,12 @@ public interface UserDao {
      * @param userInfo
      * @return
      */
-    UserInfo saveUserInfo(UserInfo userInfo);
+    void saveUserInfo(UserInfo userInfo);
 
     /**
      * 修改用户
      * @param userInfo
      * @return
      */
-    UserInfo updateUserInfo(UserInfo userInfo);
+    void updateUserInfo(UserInfo userInfo);
 }
